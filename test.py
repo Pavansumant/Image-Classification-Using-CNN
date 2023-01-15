@@ -25,7 +25,7 @@ def classify(img_file):
 
 
 import os
-path = 'D:/MasterClass/Artificial_Intelligence/Day12/Code/Dataset/test'
+path = 'D:/Dataset/test'
 files = []
 # r=root, d=directories, f = files
 for r, d, f in os.walk(path):
